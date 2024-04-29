@@ -15,3 +15,19 @@ if (nums[i] + nums[j] === target) {
 };
 
 //THINGS TO REMEMBER: when comparing two values in an array with a nested loop, always use the i + 1 to begin the second loop to avoid comparing the same index twice.
+
+
+//Palindrome number problem
+
+// 2mins 30 seconds to solve
+
+var isPalindrome = function(x) {
+    
+    let stringnumber = x.toString()  
+    let reversed = stringnumber.split('').reverse().join('')
+    
+    if (stringnumber === reversed){
+        return true
+    }else {return false}
+    
+    };
