@@ -13,3 +13,5 @@ if (nums[i] + nums[j] === target) {
     }
     return console.log('no pairs match the target pal')
 };
+
+//THINGS TO REMEMBER: when comparing two values in an array with a nested loop, always use the i + 1 to begin the second loop to avoid comparing the same index twice.
